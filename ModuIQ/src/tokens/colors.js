@@ -1,4 +1,14 @@
 /**
+ * @fileoverview ModuIQ Design System color tokens
+ * @module moduIQ/tokens/colors
+*/
+
+/**
+ * Color token definitions for the ModuIQ Design System
+ * @type {moduIQColors}
+*/
+
+/**
  * @typedef {Object} defaultColors
  * @property {string} Body - default body color
  * @property {string} White - default white color
@@ -96,20 +106,13 @@
  * @property {string} "900" - Darkest shade of the tertiary color
 */
 
-/**
- * Color tokens for the design system
- * @type {moduIQColors}
-*/
-
-export const moduIQSystemColors = {
-
-    // default colors
-    default: {
-        Body: '#000812',
-        White: '#FFFFFF',
-        Black: '#000000',
+export const moduIQColors = {
+    moduIQDefault: {
+        moduIQBody: '#000812',
+        moduIQWhite: '#FFFFFF',
+        moduIQBlack: '#000000',
     },
-    Primary: {                      // Blue
+    moduIQPrimary: {
         50: '#E6F0FE',
         100: '#B1D0FB',
         200: '#8BB9F9',
@@ -121,7 +124,7 @@ export const moduIQSystemColors = {
         800: '#023985',
         900: '#012B66',
     },
-    Secondary: {                    // Brown
+    moduIQSecondary: {
         50: '#FFF8EF',
         100: '#FFEACC',
         200: '#FFE0B3',
@@ -133,7 +136,7 @@ export const moduIQSystemColors = {
         800: '#8C6732',
         900: '#6B4F26',
     },
-    Tertiary: {                     // Green
+    moduIQTertiary: {
         50: '#E6F2F2',
         100: '#C8E6C9',
         200: '#A5D6A7',
@@ -145,7 +148,7 @@ export const moduIQSystemColors = {
         800: '#2E7D32',
         900: '#1B5E20',
     },
-    Neutral: {                    // Grey
+    moduIQNeutral: {
         10: '#FAFAFA',
         20: '#F5F5F6',
         30: '#EBEBEC',
@@ -165,45 +168,44 @@ export const moduIQSystemColors = {
         800: '#0D141E',
         900: '#000812'
     },
-    status: {
-        Success: {                    // Green
+    moduIQStatus: {
+        moduIQSuccess: {
             50: '#E8F5E9',
             100: '#C8E6C9',
             200: '#A5D6A7',
             300: '#81C784',
             400: '#66BB6A',
-            500: '#4CAF50',  // Base success color
+            500: '#4CAF50',
             600: '#43A047',
             700: '#388E3C',
             800: '#2E7D32',
             900: '#1B5E20',
         },
-        Error: {                     // Red
+        moduIQError: {
             50: '#FFEBEE',
             100: '#FFCDD2',
             200: '#EF9A9A',
             300: '#E57373',
             400: '#EF5350',
-            500: '#F44336',  // Base error color
+            500: '#F44336',
             600: '#E53935',
             700: '#D32F2F',
             800: '#C62828',
             900: '#B71C1C',
         },
-        Warning: {                   // Orange
+        moduIQWarning: {
             50: '#FFF3E0',
             100: '#FFE0B2',
             200: '#FFCC80',
             300: '#FFB74D',
             400: '#FFA726',
-            500: '#FF9800',  // Base warning color
+            500: '#FF9800',
             600: '#FB8C00',
             700: '#F57C00',
             800: '#EF6C00',
             900: '#E65100',
         }
-
     }
 };
 
-export default moduIQSystemColors;
+export default moduIQColors;

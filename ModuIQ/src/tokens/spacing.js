@@ -1,4 +1,35 @@
+/**
+ * @fileoverview ModuIQ Design System spacing tokens
+ * @module moduIQ/tokens/spacing
+*/
+
 const baseUnit = 4; // 4px
+
+/**
+ * @typedef {Object} ModuIQSpacing
+ * @property {string} moduIQBase - Base spacing unit (4px)
+ * @property {string} moduIQNone - No spacing (0px)
+ * @property {string} moduIQ2xs - Double extra small spacing (2px)
+ * @property {string} moduIQxs - Extra small spacing (4px)
+ * @property {string} moduIQsm - Small spacing (8px)
+ * @property {string} moduIQmd - Medium spacing (12px)
+ * @property {string} moduIQlg - Large spacing (16px)
+ * @property {string} moduIQxl - Extra large spacing (20px)
+ * @property {string} moduIQ2xl - Double extra large spacing (24px)
+ * @property {string} moduIQ3xl - Triple extra large spacing (28px)
+ * @property {string} moduIQ4xl - Quadruple extra large spacing (32px)
+ * @property {string} moduIQ5xl - Quintuple extra large spacing (36px)
+ * @property {string} moduIQ6xl - Sextuple extra large spacing (40px)
+ * @property {string} moduIQ8xl - Octuple extra large spacing (48px)
+ * @property {string} moduIQ10xl - Decuple extra large spacing (56px)
+ * @property {string} moduIQ11xl - Undecuple extra large spacing (60px)
+ * @property {string} moduIQ12xl - Duodecuple extra large spacing (64px)
+*/
+
+/**
+ * Spacing token definitions for the ModuIQ Design System
+ * @type {ModuIQSpacing}
+*/
 
 export const moduIQSpacing = {
     moduIQBase: `${baseUnit}px`,  // 4px
@@ -20,3 +51,4 @@ export const moduIQSpacing = {
     moduIQ12xl: `${baseUnit * 16}px`, // 64px
 };
 
+export default moduIQSpacing;

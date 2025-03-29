@@ -1,3 +1,8 @@
+/**
+ * @fileoverview ModuIQ Design System shadow tokens
+ * @module moduIQ/tokens/typography
+*/
+
 
 /**
  * ModuIQ Design System Typography
@@ -88,7 +93,7 @@
  * @type {moduIQTypography}
 */
 
-export const moduIQSystemTypography = {
+export const moduIQTypography = {
     fontFamily: {
         primary: 'Urbanist',
     },
@@ -194,4 +199,4 @@ export const moduIQSystemTypography = {
     },
 }
 
-export default moduIQSystemTypography;
+export default moduIQTypography;

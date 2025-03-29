@@ -1,4 +1,50 @@
-export const moduIQSystemBorders = {
+/**
+ * @fileoverview ModuIQ Design System border tokens
+ * @module moduIQ/tokens/borders
+*/
+
+/**
+ * Border token definitions for the ModuIQ Design System
+ * @type {ModuIQBorders}
+*/
+
+/**
+ * @typedef {Object} BorderRadius
+ * @property {string} moduIQNone - No border radius (0)
+ * @property {string} moduIQSmall - Small border radius for subtle rounding (4px)
+ * @property {string} moduIQMedium - Medium border radius for standard rounding (8px)
+ * @property {string} moduIQLarge - Large border radius for prominent rounding (12px)
+ * @property {string} moduIQXLarge - Extra large border radius for very prominent rounding (16px)
+ * @property {string} moduIQPill - Pill shape with fully rounded sides (9999px)
+ * @property {string} moduIQCircle - Perfect circle when width equals height (50%)
+*/
+
+/**
+ * @typedef {Object} BorderWidth
+ * @property {string} moduIQNone - No border (0)
+ * @property {string} moduIQHairline - Hairline border, very thin (1px)
+ * @property {string} moduIQThin - Thin border (2px)
+ * @property {string} moduIQMedium - Medium border, standard (4px)
+ * @property {string} moduIQThick - Thick border, prominent (8px)
+*/
+
+/**
+ * @typedef {Object} BorderShadow
+ * @property {string} moduIQNone - No shadow
+ * @property {string} moduIQSmall - Small shadow for subtle elevation (0 2px 4px rgba(0, 0, 0, 0.1))
+ * @property {string} moduIQMedium - Medium shadow for standard elevation (0 4px 8px rgba(0, 0, 0, 0.1))
+ * @property {string} moduIQLarge - Large shadow for prominent elevation (0 8px 16px rgba(0, 0, 0, 0.1))
+ * @property {string} moduIQXLarge - Extra large shadow for very prominent elevation (0 12px 24px rgba(0, 0, 0, 0.1))
+*/
+
+/**
+ * @typedef {Object} ModuIQBorders
+ * @property {BorderRadius} radius - Border radius tokens
+ * @property {BorderWidth} width - Border width tokens
+ * @property {BorderShadow} shadow - Border shadow tokens
+*/
+
+export const moduIQBorders = {
     // Border radius
     radius: {
         moduIQNone: '0',         // No border radius
@@ -28,4 +74,4 @@ export const moduIQSystemBorders = {
     },
 }
 
-export default moduIQSystemBorders;
+export default moduIQBorders;
