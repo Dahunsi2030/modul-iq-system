@@ -20,7 +20,7 @@
 */
 
 /**
- * @typedef {Object} altColors
+ * @typedef {Object} moduIQColors
  * @property {defaultColors} default - Default colors
  * @property {primaryColors} Primary - Primary color (Blue)
  * @property {secondaryColors} Secondary - Secondary color (Brown)
@@ -98,10 +98,10 @@
 
 /**
  * Color tokens for the design system
- * @type {altColors}
+ * @type {moduIQColors}
 */
 
-export const altSystemColors = {
+export const moduIQSystemColors = {
 
     // default colors
     default: {
@@ -206,4 +206,4 @@ export const altSystemColors = {
     }
 };
 
-export default altSystemColors;
+export default moduIQSystemColors;
