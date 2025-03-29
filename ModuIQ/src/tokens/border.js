@@ -20,32 +20,32 @@ export const borders = {
     },
 }
 
-export const altSystemBorders = {
+export const moduIQSystemBorders = {
     // Border radius
     radius: {
-        altNone: '0',         // No border radius
-        altSmall: '4px',      // Small border radius - subtle rounding
-        altMedium: '8px',     // Medium border radius - standard rounding
-        altLarge: '12px',     // Large border radius - prominent rounding
-        altXLarge: '16px',    // Extra large border radius - very prominent rounding
-        altPill: '9999px',    // Pill shape - fully rounded sides
-        altCircle: '50%',     // Perfect circle when width equals height
+        moduIQNone: '0',         // No border radius
+        moduIQSmall: '4px',      // Small border radius - subtle rounding
+        moduIQMedium: '8px',     // Medium border radius - standard rounding
+        moduIQLarge: '12px',     // Large border radius - prominent rounding
+        moduIQXLarge: '16px',    // Extra large border radius - very prominent rounding
+        moduIQPill: '9999px',    // Pill shape - fully rounded sides
+        moduIQCircle: '50%',     // Perfect circle when width equals height
     },
 
     // Border width
     width: {
-        altNone: '0',         // No border
-        altHairline: '1px',   // Hairline border - very thin
-        altThin: '2px',       // Thin border - thin
-        altMedium: '4px',     // Medium border - standard
-        altThick: '8px',      // Thick border - prominent
+        moduIQNone: '0',         // No border
+        moduIQHairline: '1px',   // Hairline border - very thin
+        moduIQThin: '2px',       // Thin border - thin
+        moduIQMedium: '4px',     // Medium border - standard
+        moduIQThick: '8px',      // Thick border - prominent
     },
 
     shadow: {
-        altNone: 'none',      // No shadow
-        altSmall: '0 2px 4px rgba(0, 0, 0, 0.1)',  // Small shadow - subtle
-        altMedium: '0 4px 8px rgba(0, 0, 0, 0.1)', // Medium shadow - standard
-        altLarge: '0 8px 16px rgba(0, 0, 0, 0.1)', // Large shadow - prominent
-        altXLarge: '0 12px 24px rgba(0, 0, 0, 0.1)', // Extra large shadow - very prominent
+        moduIQNone: 'none',      // No shadow
+        moduIQSmall: '0 2px 4px rgba(0, 0, 0, 0.1)',  // Small shadow - subtle
+        moduIQMedium: '0 4px 8px rgba(0, 0, 0, 0.1)', // Medium shadow - standard
+        moduIQLarge: '0 8px 16px rgba(0, 0, 0, 0.1)', // Large shadow - prominent
+        moduIQXLarge: '0 12px 24px rgba(0, 0, 0, 0.1)', // Extra large shadow - very prominent
     },
 }
