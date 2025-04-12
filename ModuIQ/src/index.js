@@ -1,28 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { ThemeProvider } from 'styled-components';
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-// Library Components
-
-
-// Tokens
+// Importing components and tokens
+export * from './components';
 export * from './tokens';
+export { theme } from './theme';
 
-const rootElement = document.getElementById('root');
-if (rootElement) {
-  const root = ReactDOM.createRoot(rootElement);
-  root.render(
-    <React.StrictMode>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <ThemeProvider theme={theme}>
       <App />
-    </React.StrictMode>
-  );
-} else {
-  console.error("Root element not found");
-}
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    </ThemeProvider>
+  </React.StrictMode>
+);

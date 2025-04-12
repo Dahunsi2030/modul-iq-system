@@ -47,13 +47,13 @@
 export const moduIQBorders = {
     // Border radius
     radius: {
-        moduIQNone: '0',         // No border radius
-        moduIQSmall: '4px',      // Small border radius - subtle rounding
-        moduIQMedium: '8px',     // Medium border radius - standard rounding
-        moduIQLarge: '12px',     // Large border radius - prominent rounding
-        moduIQXLarge: '16px',    // Extra large border radius - very prominent rounding
-        moduIQPill: '9999px',    // Pill shape - fully rounded sides
-        moduIQCircle: '50%',     // Perfect circle when width equals height
+        None: '0',         // No border radius
+        Small: '4px',      // Small border radius - subtle rounding
+        Medium: '8px',     // Medium border radius - standard rounding
+        Large: '12px',     // Large border radius - prominent rounding
+        xLarge: '16px',    // Extra large border radius - very prominent rounding
+        Pill: '9999px',    // Pill shape - fully rounded sides
+        Circle: '50%',     // Perfect circle when width equals height
     },
 
     // Border width
